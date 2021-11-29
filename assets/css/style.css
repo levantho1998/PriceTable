@@ -1,0 +1,202 @@
+html {
+  background-color: #cad3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1210px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+.flex {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  width: 362px;
+  height: 768px;
+  position: relative;
+  object-fit: cover;
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.cricle-price {
+  color: #b5dcfc;
+  font-size: 32px;
+}
+
+.cricle-text {
+  font-size: 14px;
+  color: #a1b0ba;
+}
+
+.ocean-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  height: 272px;
+  width: 100%;
+  word-break: break-word;
+  top: 0;
+  color: #fcfcfd;
+  text-transform: uppercase;
+  font-size: 40px;
+  z-index: 1;
+}
+
+.img-ocean {
+  height: 272px;
+}
+
+.img::after {
+  background-color: rgba(52, 70, 107, 0.7);
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 272px;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.price {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: #adbac4;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ocean-text {
+  background-color: #ffffff;
+}
+
+.ocean-list {
+  text-align: center;
+}
+
+.ocean-Subtitle {
+  padding: 25px 25px;
+  color: #5f727f;
+}
+
+.Subtitle {
+  font-size: 24px;
+}
+
+li {
+  display: block;
+  width: 100%;
+  list-style: none;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #5f727f;
+  word-break: break-word;
+}
+
+ul li:nth-child(odd) {
+  background-color: #f4f6f7;
+}
+
+.buy {
+  padding: 50px;
+  text-align: center;
+}
+
+.btn {
+  width: 168px;
+  height: 46px;
+  border: 1px solid #309df8;
+  background-color: #fff;
+  color: #309df8;
+}
+
+.btn:hover {
+  background-color: #309df8;
+  color: #ffff;
+}
+
+.btn-moun {
+  border: 1px solid #6c136f;
+  color: #6c136f;
+}
+
+.btn-moun:hover {
+  background-color: #6c136f;
+  color: #ffff;
+}
+
+.btn-forest {
+  color: #32ad1e;
+  border: 1px solid #32ad1e;
+}
+
+.btn-forest:hover {
+  background-color: #32ad1e;
+  color: #ffff;
+}
+
+.news {
+  top: -2%;
+  left: -6%;
+  position: absolute;
+  z-index: 1;
+}
+
+.img-new {
+  position: relative;
+}
+
+.text-new {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.mountain {
+  background-color: #2c2e3d;
+}
+.price-moun {
+  color: #763661;
+  font-size: 32px;
+}
+
+.forest {
+  color: #6dbf64;
+}
+
+.moun-small {
+  font-size: 14px;
+  text-transform: none;
+  color: #b6c6c9;
+  text-align: center;
+}
